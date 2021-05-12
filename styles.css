@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(85, 121, 121, 0.753);
+}
+
+.form-container {
+  width: 440px;
+  height: 600px;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: rgba(240, 255, 255, 0.795);
+}
+
+input {
+  display: inline-block;
+  width: 120px;
+  margin-top: 25px;
+}
+
+input.invalid {
+  box-shadow: 0 0 2px red;
+}
+
+button {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  appearance: none;
+  border: 1px solid gray;
+  border-radius: 20px;
+}
+
+span.error {
+  display: inline-block;
+  position: relative;
+  top: 19px; right: 125px;
+  height: 20px;
+  padding: 3px;
+  border-radius: 3px;
+  background-color: rgb(196, 72, 72);
+  color: rgb(236, 236, 236);
+  font-size: 10px;
+}
+
+.hidden {
+  opacity: 0;
+}
